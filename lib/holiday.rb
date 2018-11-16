@@ -36,7 +36,7 @@ def add_supply_to_memorial_day(holiday_hash, supply)
   # add the second argument to the memorial day array
   holiday_hash[:spring][:memorial_day] << supply
 #binding.pry
-  holiday_hash[:spring][:memorial_day_supplies] << "Table Cloth"
+  holiday_hash[:spring][:memorial_day] << "Table Cloth"
 
 end
 
